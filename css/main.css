@@ -1,0 +1,27 @@
+* {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Rajdhani', sans-serif;
+    color: #c4c465;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+/*header*/
+header{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;  /*centraliza os elementos na horizontal */
+}
+    
+header img {
+    width: 90px;
+    height: 90px;
+    padding: 50px;
+
+}
+header li {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    justify-content: flex-end;
+}
